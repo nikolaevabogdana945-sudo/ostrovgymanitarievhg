@@ -1,0 +1,138 @@
+
+Action: file_editor create /app/website/index.html --file-text "<!DOCTYPE html>
+<html lang=\"ru\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>Галерея — Главная</title>
+    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+    <link href=\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" href=\"styles.css\">
+</head>
+<body>
+    <header class=\"site-header\">
+        <div class=\"container header-inner\">
+            <a href=\"index.html\" class=\"logo\">
+                <span class=\"logo-mark\">G</span>
+                <span class=\"logo-text\">Galerie</span>
+            </a>
+            <nav class=\"nav\">
+                <ul class=\"nav-list\">
+                    <li><a href=\"index.html\" class=\"nav-link active\">Главная</a></li>
+                    <li><a href=\"about.html\" class=\"nav-link\">О картинах</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class=\"hero\">
+            <div class=\"container hero-inner\">
+                <p class=\"eyebrow\">Собрание живописи · 2025</p>
+                <h1 class=\"hero-title\">
+                    Искусство, <em>застывшее</em><br>во времени
+                </h1>
+                <p class=\"hero-subtitle\">
+                    Частная галерея, посвящённая классической и современной живописи.
+                    Мы собираем работы, которые рассказывают истории — тихо, но убедительно.
+                </p>
+                <div class=\"hero-actions\">
+                    <a href=\"about.html\" class=\"btn btn-primary\">Смотреть картины</a>
+                    <a href=\"#about\" class=\"btn btn-ghost\">О галерее</a>
+                </div>
+            </div>
+            <div class=\"hero-image\">
+                <img src=\"https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1600&q=80\"
+                     alt=\"Картина в галерее\">
+            </div>
+        </section>
+
+        <section id=\"about\" class=\"about\">
+            <div class=\"container about-grid\">
+                <div class=\"about-text\">
+                    <p class=\"section-label\">— О нас</p>
+                    <h2 class=\"section-title\">Место, где картины говорят сами за себя</h2>
+                    <p class=\"lead\">
+                        Галерея основана в 2015 году как небольшая студия, открытая для художников
+                        и коллекционеров. Сегодня наша коллекция насчитывает более двухсот работ —
+                        от академических пейзажей до эксперименталь­ных современных полотен.
+                    </p>
+                    <p>
+                        Мы верим, что картина — это не только предмет интерьера, но и способ смотреть
+                        на мир. Каждое полотно в нашей коллекции отобрано вручную: мы ценим технику,
+                        атмосферу и честность художника.
+                    </p>
+                </div>
+                <div class=\"about-stats\">
+                    <div class=\"stat\">
+                        <span class=\"stat-number\">200+</span>
+                        <span class=\"stat-label\">работ в коллекции</span>
+                    </div>
+                    <div class=\"stat\">
+                        <span class=\"stat-number\">48</span>
+                        <span class=\"stat-label\">художников</span>
+                    </div>
+                    <div class=\"stat\">
+                        <span class=\"stat-number\">10</span>
+                        <span class=\"stat-label\">лет на рынке</span>
+                    </div>
+                    <div class=\"stat\">
+                        <span class=\"stat-number\">25</span>
+                        <span class=\"stat-label\">работ в экспозиции</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=\"features\">
+            <div class=\"container\">
+                <div class=\"features-grid\">
+                    <article class=\"feature\">
+                        <div class=\"feature-num\">01</div>
+                        <h3>Кураторский отбор</h3>
+                        <p>Каждая картина проходит экспертизу. Мы не гонимся за количеством — только за работами, в которые влюбляемся сами.</p>
+                    </article>
+                    <article class=\"feature\">
+                        <div class=\"feature-num\">02</div>
+                        <h3>Живой архив</h3>
+                        <p>История создания, биография автора и техника исполнения — всё это сохраняется для каждой работы в нашем каталоге.</p>
+                    </article>
+                    <article class=\"feature\">
+                        <div class=\"feature-num\">03</div>
+                        <h3>Открытая экспозиция</h3>
+                        <p>Все 25 работ нашей постоянной экспозиции можно рассмотреть онлайн — на странице «О картинах».</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class=\"cta\">
+            <div class=\"container cta-inner\">
+                <h2>Готовы посмотреть коллекцию?</h2>
+                <p>Перейдите к экспозиции, чтобы увидеть все 25 работ с описаниями.</p>
+                <a href=\"about.html\" class=\"btn btn-primary\">Перейти к картинам →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class=\"site-footer\">
+        <div class=\"container footer-inner\">
+            <div>
+                <p class=\"logo logo-footer\">
+                    <span class=\"logo-mark\">G</span>
+                    <span class=\"logo-text\">Galerie</span>
+                </p>
+                <p class=\"footer-muted\">Частная галерея живописи. 2015—2025.</p>
+            </div>
+            <div class=\"footer-contacts\">
+                <p>ул. Art Street, 25</p>
+                <p>info@galerie.example</p>
+                <p>+7 (000) 000-00-00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+"
+Observation: Create successful: /app/website/index.html
